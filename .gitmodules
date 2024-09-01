@@ -3,3 +3,7 @@
 	url = https://github.com/xianmin/hugo-theme-jane.git
 	branch = master
 
+[submodule "public"]
+	path = public
+	url = git@github.com:Yufantianzhou/yufantianzhou.github.io.git
+	branch = master
