@@ -12,6 +12,7 @@ categories: [
     "docs",
     "Development",
     "index",
+    "How to",
 ]
 
 menu:
