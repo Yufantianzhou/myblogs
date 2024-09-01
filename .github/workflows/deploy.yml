@@ -21,7 +21,7 @@ jobs:
               uses: peaceiris/actions-hugo@v2.6.0
               with:
                   hugo-version: "latest"
-                  extended: true 
+                 # extended: true 
                   # 按需选择是否使用 hugo-extended
 
             - name: build
