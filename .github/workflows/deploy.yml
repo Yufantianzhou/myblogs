@@ -78,9 +78,9 @@ jobs:
         with:
            PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }} 
                   # 生成的 token 就用在这里，因为下面用到 external repository
-           EXTERNAL_REPOSITORY: username/username.github.io 
+           EXTERNAL_REPOSITORY: yufantianzhou/yufantianzhou.github.io 
                   # 修改为你的 Github Pages 仓库
-           PUBLISH_BRANCH: main 
+           PUBLISH_BRANCH: master
                   # 以及对应的分支 main/master
            PUBLISH_DIR: ./public 
                   # 指定将自动部署得到的 public 文件夹 push 上去
