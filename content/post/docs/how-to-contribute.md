@@ -12,7 +12,6 @@ categories: [
     "docs",
     "Development",
     "index",
-    "tutorials",
 ]
 
 menu:
