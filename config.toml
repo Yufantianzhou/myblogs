@@ -16,9 +16,9 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: params.author.name ↓ # 默认为下面配置的params.author.name ↓
 
 # language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
-[languages.en]
-  languageCode = "en"
+defaultContentLanguage = "zh-cn"           # Default language to use
+[languages.zh-cn]
+  languageCode = "zh-cn"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -52,18 +52,18 @@ defaultContentLanguage = "en"           # Default language to use
 
 
 [params]
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2024"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
-  author.name = "Jane"      # essential                     # 必需
+  author.name = "yufantianzhou"      # essential                     # 必需
   author.email = "me@example.com" # optional, for RSS             # 可选
   author.url = "/about"        # optional                      # 可选
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","jane"]
-  description = "Hugo theme jane example site."
+  logoTitle = "Yu's blog""        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["Hugo", "theme","blog"]
+  description = "yu's blog"   # default: the site description # 默认值: 站点描述
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
