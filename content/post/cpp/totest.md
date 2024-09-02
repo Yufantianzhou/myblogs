@@ -3,11 +3,11 @@ title: "Totest"
 date: 2024-09-01T13:39:45+08:00
 lastmod: 2024-09-01T13:39:45+08:00
 draft: true
-keywords: []
-description: ""
-tags: []
-categories: []
-author: ""
+keywords: ["cpp", "test"]   
+description: "a test article"
+tags: ["cpp", "test"]
+categories: [ "cpp" ]
+author: "yu"
 
 # Uncomment to pin article to front page
 # weight: 1
