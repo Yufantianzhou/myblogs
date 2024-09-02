@@ -2,7 +2,7 @@
 title: "Totest"
 date: 2024-09-01T13:39:45+08:00
 lastmod: 2024-09-01T13:39:45+08:00
-draft: true
+draft: false
 keywords: ["cpp", "test"]   
 description: "a test article"
 tags: ["cpp", "test"]
