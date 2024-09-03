@@ -27,7 +27,8 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 
 [[menu.main]]             # config your menu              # 配置目录
   name = "主页"
-  weight =  identifier = "home"
+  weight = 10  
+  identifier = "home"
   pageref = "/"
 [[menu.main]]
   name = "归档"
