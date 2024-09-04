@@ -5,7 +5,7 @@ lastmod: 2018-03-04T16:01:23+08:00
 draft: false
 tags: ["preview", "shortcodes", "tag-6"]
 categories: ["demo", "shortcodes", "index"]
-toc: true
+author: "Yu"
 
 menu:
   main:
