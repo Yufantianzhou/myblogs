@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "http://yufantianzhou.github.io"
-title = "Yu's blog"
+title = "YU's Blog"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -26,29 +26,21 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "主页"
-  weight = 10  
+  name = "This is Home"
+  weight = 10
   identifier = "home"
   pageref = "/"
 [[menu.main]]
-  name = "归档"
+  name = "Archives"
   weight = 20
   identifier = "archives"
   pageref = "/post/"
 [[menu.main]]
-  name = "标签"
-  weight = 30
-  identifier = "tags"
-  pageref = "/tags/"
-[[menu.main]]
-  name = "分类"
+  name = "Categories"
   weight = 40
   identifier = "categories"
   pageref = "/categories/"
-#[[menu.main]]
-#  name = "external-link"
-#  weight = 50
-#  pageref = "https://gohugo.io"
+
 
 
 [params]
@@ -57,13 +49,13 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   author.name = "yufantianzhou"      # essential                     # 必需
-  author.email = "yufantianzhou@outlook.com" # optional, for RSS             # 可选
+  author.email = "me@example.com" # optional, for RSS             # 可选
   author.url = "/about"        # optional                      # 可选
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Yu's blog"       # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","blog"]
-  description = "yu's blog"   # default: the site description # 默认值: 站点描述
+  logoTitle = "YU's Blog"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["Hugo", "theme","jane"]
+  description = "Hugo theme jane example site."
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
@@ -79,25 +71,4 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
-  [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-    o-goodreads = "http://localhost:1313"
-    p-coding = "http://localhost:1313"
-    q-bilibili = "http://localhost:1313"
-    r-codeforces = "http://localhost:1313"
-    s-mastodon = "http://localhost:1313"
-    t-youtube = "http://localhost:1313"
-    u-twitch = "http://localhost:1313"
+  
